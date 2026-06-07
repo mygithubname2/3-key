@@ -37,4 +37,4 @@ With CircuitPython running, the board will automatically execute the `code.py` f
 
 ## Troubleshooting
 * **The `RPI-RP2` drive doesn't appear:** Ensure your USB-C cable supports data transfer. Try switching to a different cable or USB port.
-* **How do I change the code** Once the code is running, to modify the Firmware, unplug the board, hold down the MIDDLE button, plug the USB cable into your computer, and then release the MIDDLE button once the circuitpython harddrive has been mounted.
+* **How do I change the code?:** Once the code is running, to modify the Firmware, unplug the board, hold down the MIDDLE button, plug the USB cable into your computer, and then release the MIDDLE button once the circuitpython harddrive has been mounted.
