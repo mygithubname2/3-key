@@ -1,3 +1,6 @@
+## Discription
+This is a hardware and software (firmware) solution to allow a 3 button macropad to emulate a foot pedal for powerscribe without needing Autohotkey. The hardware is cheap and the firmware is easy to install. Once installed, powerscribe sees it and treats it exactly like a standard 3 button foot pedal. 
+
 ## Prerequisites
 * A Waveshare RP2040-Keyboard-3 board [https://www.waveshare.com/rp2040-keyboard-3.htm]
 * A USB Type-C data cable (ensure it supports data transfer, not just charging)
