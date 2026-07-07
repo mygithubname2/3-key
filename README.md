@@ -39,9 +39,9 @@ To flash CircuitPython onto the board, you must put the RP2040 into its UF2 boot
 With CircuitPython running, the board will automatically execute the `code.py` file found on the root of the drive.
 1. Clone or download this repository to your local machine.
 2. Open the **`CIRCUITPY`** drive on your computer.
-3. Copy the contents of this repository (specifically `boot.py`, `code.py`, and `footpad.py` and any included `/lib` folder or asset files) directly into the root directory of the **`CIRCUITPY`** drive.
+3. Copy the contents of the `src` folder from this repository (specifically `boot.py`, `code.py`, and `footpad.py` and the included `/lib` folder or asset files) directly into the root directory of the **`CIRCUITPY`** drive.
 4. Replace any existing files if prompted. 
-5. CircuitPython will automatically detect the changes, soft-reboot, and begin running the new firmware immediately.
+5. CircuitPython should automatically detect the changes (you may need to unplug the device for a moment to reset it), soft-reboot, and begin running the new firmware immediately.
 
 ### Step 5: Configure the Firmware
 The configuration webpage can be accessed at https://mygithubname2.github.io/3-key/
