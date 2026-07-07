@@ -1,11 +1,16 @@
+
 ## Discription
-This is a hardware and software (firmware) solution to allow a 3 button macropad to emulate a foot pedal for powerscribe without needing Autohotkey. The hardware is cheap and the firmware is easy to install. Once installed, powerscribe sees it and treats it exactly like a standard 3 button foot pedal. 
+This is a hardware and software solution to allow a 3 button macropad to emulate a foot pedal for dictation without needing Autohotkey. The hardware is cheap and the firmware is easy to install. Once installed, the dictation software will see it and treat it exactly like a standard 3 button foot pedal. 
+
+<img src="assets/3key%20macropad.jpg" width="300" />
 
 ## Prerequisites
 * A Waveshare RP2040-Keyboard-3 board [https://www.waveshare.com/rp2040-keyboard-3.htm]
+* Custom keycaps (optional) [https://yuzukeycaps.com/] 
 * A USB Type-C data cable (ensure it supports data transfer, not just charging)
 * A computer (Windows, macOS, or Linux)
 
+ 
 ## Installation Guide
 
 ### Step 1: Download CircuitPython
@@ -37,6 +42,9 @@ With CircuitPython running, the board will automatically execute the `code.py` f
 3. Copy the contents of this repository (specifically `boot.py`, `code.py`, and `footpad.py` and any included `/lib` folder or asset files) directly into the root directory of the **`CIRCUITPY`** drive.
 4. Replace any existing files if prompted. 
 5. CircuitPython will automatically detect the changes, soft-reboot, and begin running the new firmware immediately.
+
+### Step 5: Configure the Firmware
+The configuration webpage can be accessed at https://mygithubname2.github.io/3-key/
 
 ## Troubleshooting
 * **The `RPI-RP2` drive doesn't appear:** Ensure your USB-C cable supports data transfer. Try switching to a different cable or USB port.
